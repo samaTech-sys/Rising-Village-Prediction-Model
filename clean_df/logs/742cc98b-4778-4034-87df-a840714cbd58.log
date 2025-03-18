@@ -1,0 +1,34 @@
+[2025-03-18 02:39:51 UTC] Step clean_df has started.
+
+[2025-03-18 02:39:51 UTC] Failed to run step clean_df after 1 retries. Exiting.
+
+[2025-03-18 02:39:51 UTC] Invalid step function entrypoint arguments. Check out the pydantic error above for more details.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\zenml\steps\base_step.py", line 542, in call_entrypoint
+    validated_args = pydantic_utils.validate_function_args(
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\zenml\utils\pydantic_utils.py", line 282, in validate_function_args
+    validated_function(*args, **kwargs)
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pydantic\validate_call_decorator.py", line 60, in wrapper_function
+    return validate_call_wrapper(*args, **kwargs)
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pydantic\_internal\_validate_call.py", line 96, in __call__
+    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))
+pydantic_core._pydantic_core.ValidationError: 1 validation error for f
+df
+  Input should be an instance of DataFrame [type=is_instance_of, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.8/v/is_instance_of
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\zenml\orchestrators\step_launcher.py", line 255, in launch
+    self._run_step(
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\zenml\orchestrators\step_launcher.py", line 377, in _run_step
+    self._run_step_without_step_operator(
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\zenml\orchestrators\step_launcher.py", line 462, in _run_step_without_step_operator
+    runner.run(
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\zenml\orchestrators\step_runner.py", line 187, in run
+    return_values = step_instance.call_entrypoint(
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\zenml\steps\base_step.py", line 549, in call_entrypoint
+    raise StepInterfaceError(
+zenml.exceptions.StepInterfaceError: Invalid step function entrypoint arguments. Check out the pydantic error above for more details.
+
