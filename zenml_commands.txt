@@ -1,0 +1,1 @@
+zenml init //initializes zenml in the project folder
