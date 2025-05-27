@@ -1,0 +1,8 @@
+COLUMNS: 
+  most_recommend_rtv_program:
+  least_recommend_rtv_program:
+  most_recommend_rtv_program_reason:
+  least_recommend_rtv_program_reason:
+
+TARGET: 
+  HH Income + Production/Day (USD):

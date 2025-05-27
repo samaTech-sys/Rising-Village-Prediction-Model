@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: raisingVillage
+Version: 0.0.0
+Summary: This project develops and trains a predictive model to identify households at risk of not achieving $2/day. This intervention helps stakeholders come up with targeted interventions.
+Home-page: https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}
+Author: samaTech-sys
+Author-email: collinetazuba@gmail.com
+Project-URL: Bug Tracker, https://github.com/samaTech-sys/Rising-Village-Prediction-Model/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: summary
+
+# Kidney-Disease-Classification-MLflow-DVC
+A Deep learning kidney disease prediction system with full deployment 
+
+# How to run the project?
+
+### STEPS
+Clone the project 
+
+... bash 
+https://github.com/samaTech-sys/Kidney-Disease-Classification-MLflow-DVC
+...
+
+### STEP 01 Create a conda environemnt after opening the repository 
+... bash 
+conda create -n cnnClassifiers python=3.10.16
+...
+
+... bash 
+conda activate cnnClassifiers
+...
+
+### STEP 02 Install the requirements
+... bash 
+pip install -r requirements.txt
+...
+### STEP 03 

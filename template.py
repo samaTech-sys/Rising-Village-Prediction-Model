@@ -5,7 +5,7 @@ import logging
 #logging string 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name ='cnnClassifier'
+project_name ='raisingVillage'
 
 #List of files and folders 
 list_of_files = [
@@ -21,10 +21,14 @@ list_of_files = [
     "config/config.yaml", 
     "dvc.yaml", 
     "params.yaml", 
+    "schema.yaml", 
     "requirements.txt",
     "setup.py", 
     "research/trials.ipynb", 
-    "templates/index.html"
+    "analysis/steps/step1_basic_data_inspection.py", 
+    "engineering/styles/style1_handle_missing_values.py", 
+    "templates/index.html", 
+    "main.py"
 ]
 
 for filepath in list_of_files: 

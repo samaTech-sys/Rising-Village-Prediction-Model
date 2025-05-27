@@ -1,0 +1,9 @@
+#Setting artifacts root directory and all the necessary directories
+artifacts_root: artifacts
+
+#Data ingestion repositories
+data_ingestion: 
+  root_dir: artifacts/data_ingestion
+  source_url: https://github.com/samaTech-sys/Rising-Village-Prediction-Model/raw/main/interview_dataset.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
