@@ -1,7 +1,7 @@
 import pandas as pd
 
 def load_selected_data():
-    data_path = "C:\\Users\\USER\\Desktop\\MLDefaults\\Rising-Village-Prediction-Model\\interview_dataset.csv"
+    data_path = (r"C:\Users\USER\Desktop\MLDefaults\Rising-Village-Prediction-Model\artifacts\data_ingestion\interview_dataset.csv")
     df = pd.read_csv(data_path)
     
     selected_columns = [
