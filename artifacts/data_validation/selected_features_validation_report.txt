@@ -1,0 +1,3 @@
+Validation status: True
+Data columns: ['least_recommend_rtv_program', 'least_recommend_rtv_program_reason', 'most_recommend_rtv_program', 'most_recommend_rtv_program_reason']
+Schema columns: ['least_recommend_rtv_program', 'least_recommend_rtv_program_reason', 'most_recommend_rtv_program', 'most_recommend_rtv_program_reason']

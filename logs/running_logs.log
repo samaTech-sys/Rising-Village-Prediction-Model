@@ -64,3 +64,250 @@ Source-Age: 0
 [2025-05-27 22:02:37,757: INFO: main: >>>>> Data Ingestion Stage completed >>>>>
 
 x=========x]
+[2025-05-28 11:08:40,885: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 11:08:40,967: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 11:08:40,972: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 11:10:18,665: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 11:10:18,685: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 11:10:18,694: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 11:10:18,702: INFO: common: Created directory at: artifacts]
+[2025-05-28 11:10:18,707: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 11:15:33,138: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 11:15:33,156: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 11:15:33,168: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 11:15:33,179: INFO: common: Created directory at: artifacts]
+[2025-05-28 11:15:33,186: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 11:28:44,977: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 11:28:44,997: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 11:28:45,011: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 11:28:45,017: INFO: common: Created directory at: artifacts]
+[2025-05-28 11:28:45,020: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 11:29:30,429: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 11:29:30,436: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 11:29:30,446: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 11:29:30,451: INFO: common: Created directory at: artifacts]
+[2025-05-28 11:29:30,452: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 11:41:01,118: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 11:41:01,130: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 11:41:01,141: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 11:41:01,147: INFO: common: Created directory at: artifacts]
+[2025-05-28 11:41:01,151: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 11:41:05,632: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 11:41:05,638: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 11:41:05,647: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 11:41:05,654: INFO: common: Created directory at: artifacts]
+[2025-05-28 11:41:05,660: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 11:48:23,508: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 11:48:23,517: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 11:48:23,526: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 11:48:23,533: INFO: common: Created directory at: artifacts]
+[2025-05-28 11:48:23,536: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 12:00:54,719: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 12:00:54,746: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 12:00:54,761: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 12:00:54,770: INFO: common: Created directory at: artifacts]
+[2025-05-28 12:00:54,772: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 12:00:54,784: ERROR: 2442636240: Error extracting features: 'DataProcessingConfig' object has no attribute 'unzip_data_dir']
+[2025-05-28 12:02:44,336: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 12:02:44,342: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 12:02:44,350: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 12:02:44,354: INFO: common: Created directory at: artifacts]
+[2025-05-28 12:02:44,358: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 12:17:02,606: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 12:17:02,618: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 12:17:02,627: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 12:17:02,634: INFO: common: Created directory at: artifacts]
+[2025-05-28 12:17:02,639: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 12:22:27,445: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 12:22:27,457: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 12:22:27,461: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 12:22:27,504: INFO: common: Created directory at: artifacts]
+[2025-05-28 12:22:27,509: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 12:22:30,977: ERROR: 2442636240: Error extracting features: 'str' object has no attribute 'parent']
+[2025-05-28 12:27:04,179: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 12:27:04,191: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 12:27:04,201: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 12:27:04,205: INFO: common: Created directory at: artifacts]
+[2025-05-28 12:27:04,211: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 12:27:07,192: ERROR: 609342480: Error extracting features: 'str' object has no attribute 'parent']
+[2025-05-28 12:28:03,693: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 12:28:03,700: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 12:28:03,704: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 12:28:03,716: INFO: common: Created directory at: artifacts]
+[2025-05-28 12:28:03,720: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 12:28:06,708: ERROR: 2442636240: Error extracting features: 'str' object has no attribute 'parent']
+[2025-05-28 12:30:26,171: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 12:30:26,178: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 12:30:26,187: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 12:30:26,196: INFO: common: Created directory at: artifacts]
+[2025-05-28 12:30:26,200: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 12:30:28,615: ERROR: 2442636240: Error extracting features: 'str' object has no attribute 'parent']
+[2025-05-28 12:37:42,569: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 12:37:42,580: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 12:37:42,590: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 12:37:42,596: INFO: common: Created directory at: artifacts]
+[2025-05-28 12:37:42,606: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 12:37:45,928: INFO: 2442636240: Selected features saved to artifacts\data_processing\selected_features.csv]
+[2025-05-28 12:47:28,788: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 12:47:28,793: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 12:47:28,811: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 12:47:28,818: INFO: common: Created directory at: artifacts]
+[2025-05-28 12:47:28,826: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 12:47:31,135: INFO: 3248081403: Selected features saved to artifacts\data_processing\selected_features.csv]
+[2025-05-28 13:00:59,604: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:00:59,621: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:00:59,631: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:00:59,640: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:00:59,651: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 13:02:29,851: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:02:29,859: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:02:30,290: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:02:30,290: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:02:30,305: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 13:08:34,729: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:08:34,803: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:08:34,818: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:08:34,832: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:08:34,837: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 13:18:06,696: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:18:06,710: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:18:06,718: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:18:06,728: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:18:06,732: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 13:18:09,728: INFO: 404485137: Saved 4 features to artifacts\data_processing\selected_features.csv]
+[2025-05-28 13:18:09,744: INFO: 404485137: Target column: {'HH Income + Production/Day (USD)': 'float64'}]
+[2025-05-28 13:18:10,249: ERROR: 404485137: Validation failed: 'str' object has no attribute 'parent']
+[2025-05-28 13:19:10,844: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:19:10,851: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:19:10,860: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:19:10,867: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:19:10,873: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 13:19:13,344: INFO: 404485137: Saved 4 features to artifacts\data_processing\selected_features.csv]
+[2025-05-28 13:19:13,344: INFO: 404485137: Target column: {'HH Income + Production/Day (USD)': 'float64'}]
+[2025-05-28 13:19:13,425: INFO: 404485137: Validation passed]
+[2025-05-28 13:40:08,852: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-05-28 13:40:08,867: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:40:08,891: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:40:08,962: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-28 13:40:08,983: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:40:08,983: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-05-28 13:40:08,983: INFO: data_ingestion: File already exists: ~934 KB]
+[2025-05-28 13:40:09,122: INFO: main: >>>>> Data Ingestion Stage completed >>>>>
+
+x=========x]
+[2025-05-28 13:40:09,122: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-05-28 13:40:09,151: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:40:09,207: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:40:09,243: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-28 13:40:09,321: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:40:09,359: INFO: common: Created directory at: artifacts/data_validation]
+[2025-05-28 13:40:36,846: INFO: main: >>>>> Data Validation Stage completed >>>>>
+
+x=========x]
+[2025-05-28 13:40:36,893: INFO: main: >>>>>> stage Data Processing Stage started <<<<<<]
+[2025-05-28 13:40:37,089: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:40:37,151: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:40:37,302: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-28 13:40:37,315: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:40:37,463: ERROR: main: 'ConfigurationManager' object has no attribute 'selected_schema']
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\MLDefaults\Rising-Village-Prediction-Model\main.py", line 29, in <module>
+    obj.main()
+  File "c:\users\user\desktop\mldefaults\rising-village-prediction-model\src\raisingVillage\pipeline\stage_03_data_processing.py", line 13, in main
+    data_processing_config = config.get_data_processing_config()
+  File "c:\users\user\desktop\mldefaults\rising-village-prediction-model\src\raisingVillage\config\configuration.py", line 53, in get_data_processing_config
+    selected_schema = self.selected_schema.COLUMNS
+AttributeError: 'ConfigurationManager' object has no attribute 'selected_schema'
+[2025-05-28 13:48:48,474: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-05-28 13:48:48,489: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:48:48,489: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:48:48,510: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-28 13:48:48,517: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:48:48,517: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:48:48,517: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-05-28 13:48:48,533: INFO: data_ingestion: File already exists: ~934 KB]
+[2025-05-28 13:48:48,617: INFO: main: >>>>> Data Ingestion Stage completed >>>>>
+
+x=========x]
+[2025-05-28 13:48:48,662: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-05-28 13:48:48,676: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:48:48,676: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:48:48,676: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-28 13:48:48,692: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:48:48,692: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:48:48,692: INFO: common: Created directory at: artifacts/data_validation]
+[2025-05-28 13:49:17,679: INFO: main: >>>>> Data Validation Stage completed >>>>>
+
+x=========x]
+[2025-05-28 13:49:17,693: INFO: main: >>>>>> stage Data Processing Stage started <<<<<<]
+[2025-05-28 13:49:17,712: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:49:17,720: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:49:17,725: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-28 13:49:17,755: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:49:17,768: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:49:17,772: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 13:49:25,479: INFO: data_processing: Saved 4 features to artifacts\data_processing\selected_features.csv]
+[2025-05-28 13:49:25,495: INFO: data_processing: Target column: {'HH Income + Production/Day (USD)': 'float64'}]
+[2025-05-28 13:49:25,715: INFO: data_processing: Validation passed]
+[2025-05-28 13:49:25,718: INFO: main: >>>>> Data Processing Stage completed >>>>>
+
+x=========x]
+[2025-05-28 13:56:07,032: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-05-28 13:56:07,044: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:56:07,049: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:56:07,056: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-28 13:56:07,069: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:56:07,070: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:56:07,070: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-05-28 13:56:13,736: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with the following info: n\Connection: close
+Content-Length: 956420
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "b563e1853abc5bbe97acae5f0c2a2a20e9f5cc3a9aec3235ec24faa144b15667"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 84CC:352ED8:8F642:1B37F4:6836C19B
+Accept-Ranges: bytes
+Date: Wed, 28 May 2025 07:56:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-cpt13828-CPT
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1748418972.538706,VS0,VE399
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 00f989b007810047b14a50890462a0ff3ed820fb
+Expires: Wed, 28 May 2025 08:01:11 GMT
+Source-Age: 0
+
+]
+[2025-05-28 13:56:14,019: INFO: main: >>>>> Data Ingestion Stage completed >>>>>
+
+x=========x]
+[2025-05-28 13:56:14,034: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-05-28 13:56:14,057: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:56:14,061: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:56:14,072: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-28 13:56:14,072: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:56:14,072: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:56:14,087: INFO: common: Created directory at: artifacts/data_validation]
+[2025-05-28 13:56:22,891: INFO: main: >>>>> Data Validation Stage completed >>>>>
+
+x=========x]
+[2025-05-28 13:56:22,891: INFO: main: >>>>>> stage Data Processing Stage started <<<<<<]
+[2025-05-28 13:56:22,944: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-28 13:56:22,971: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-28 13:56:22,997: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-28 13:56:23,028: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-28 13:56:23,048: INFO: common: Created directory at: artifacts]
+[2025-05-28 13:56:23,091: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-28 13:56:26,367: INFO: data_processing: Saved 4 features to artifacts\data_processing\selected_features.csv]
+[2025-05-28 13:56:26,367: INFO: data_processing: Target column: {'HH Income + Production/Day (USD)': 'float64'}]
+[2025-05-28 13:56:26,512: INFO: data_processing: Validation passed]
+[2025-05-28 13:56:26,512: INFO: main: >>>>> Data Processing Stage completed >>>>>
+
+x=========x]

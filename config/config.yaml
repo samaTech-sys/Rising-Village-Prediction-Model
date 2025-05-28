@@ -7,3 +7,15 @@ data_ingestion:
   source_url: https://github.com/samaTech-sys/Rising-Village-Prediction-Model/raw/main/interview_dataset.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+#Data Validation repositories
+data_validation: 
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/interview_dataset.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
+
+#Data processing Repositories 
+data_processing:
+  root_dir: artifacts/data_processing
+  selected_data_file: artifacts/data_processing/selected_features.csv
+  validation_report: artifacts/data_validation/selected_features_validation_report.txt
