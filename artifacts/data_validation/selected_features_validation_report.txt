@@ -1,3 +1,0 @@
-Validation status: True
-Data columns: ['HH Income + Production/Day (USD)', 'least_recommend_rtv_program', 'least_recommend_rtv_program_reason', 'most_recommend_rtv_program', 'most_recommend_rtv_program_reason']
-Schema columns: ['HH Income + Production/Day (USD)', 'least_recommend_rtv_program', 'least_recommend_rtv_program_reason', 'most_recommend_rtv_program', 'most_recommend_rtv_program_reason']
