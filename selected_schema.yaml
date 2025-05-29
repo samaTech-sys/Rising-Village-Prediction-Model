@@ -3,6 +3,7 @@ COLUMNS:
   least_recommend_rtv_program: float64
   most_recommend_rtv_program_reason: object 
   least_recommend_rtv_program_reason: object 
+  HH Income + Production/Day (USD): float64
 
 TARGET: 
   HH Income + Production/Day (USD): float64

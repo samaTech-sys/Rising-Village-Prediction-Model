@@ -17,8 +17,8 @@ Dynamic: license-file
 Dynamic: project-url
 Dynamic: summary
 
-# Kidney-Disease-Classification-MLflow-DVC
-A Deep learning kidney disease prediction system with full deployment 
+# Rising Village Risk Prdiction Model
+A Prediction model that identifies house holds earning below $2 to device targeted intervention 
 
 # How to run the project?
 
@@ -26,16 +26,16 @@ A Deep learning kidney disease prediction system with full deployment
 Clone the project 
 
 ... bash 
-https://github.com/samaTech-sys/Kidney-Disease-Classification-MLflow-DVC
+https://github.com/samaTech-sys/Rising-Village-Prediction-Model.git
 ...
 
 ### STEP 01 Create a conda environemnt after opening the repository 
 ... bash 
-conda create -n cnnClassifiers python=3.10.16
+conda create -n raisingVillage python=3.10.16
 ...
 
 ... bash 
-conda activate cnnClassifiers
+conda activate raisingVillage
 ...
 
 ### STEP 02 Install the requirements

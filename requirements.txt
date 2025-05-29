@@ -13,6 +13,7 @@ joblib
 types-pyyaml
 scipy 
 Flask
+missingno
 Flask-cors
 -e .
 
