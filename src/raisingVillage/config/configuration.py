@@ -5,7 +5,8 @@ from raisingVillage.entity.entity_config import (
     DataIngestionConfig, 
     DataValidationConfig, 
     DataProcessingConfig,
-    DataTransformationConfig
+    DataTransformationConfig, 
+    DataSplittingConfig
 )
 
 #Updating the configuration file 
@@ -74,13 +75,31 @@ class ConfigurationManager:
         return data_processing_config
     
     def get_data_transformation_config(self) -> DataTransformationConfig:
-        config = self.config.data_transformation 
+        config = self.config.data_transformation
+        data_processing_config = self.config.data_processing 
         
         create_directories([config.root_dir])
         
         data_transformation_config = DataTransformationConfig(
             root_dir=config.root_dir,
-            data_path=config.data_path, 
-            processed_data_dir=config.processed_data_dir
+            processed_data_file=Path(config.processed_data_file),
+            selected_data_file=data_processing_config.selected_data_file,
         )
         return data_transformation_config
+    
+    def get_data_splitting_config(self) -> DataSplittingConfig:
+        config = self.config.data_splitting
+        data_transformation_config = self.config.data_transformation
+        params = self.params.data_splitting
+        
+        create_directories([config.root_dir])
+        
+        data_splitting_config = DataSplittingConfig(
+            root_dir=config.root_dir,
+            processed_data_file=data_transformation_config.processed_data_file, 
+            train_set_path=config.train_set_path, 
+            test_set_path=config.test_set_path, 
+            test_size=float(params.test_size),
+            random_state=int(params.random_state)    
+        )
+        return data_splitting_config

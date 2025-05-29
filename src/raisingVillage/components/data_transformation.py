@@ -5,9 +5,9 @@ from raisingVillage import logger
 from raisingVillage.entity.entity_config import DataTransformationConfig
 
 class DataTransformation:
-    def __init__(self, config:DataTransformationConfig):
+    def __init__(self, config: DataTransformationConfig):
         self.config = config
-        self.df = pd.read_csv(self.config.data_path)
+        self.df = pd.read_csv(self.config.selected_data_file)
         self.processed_df = None
     
     def create_binary_classes(self, df: pd.DataFrame, target_col: str = "HH Income + Production/Day (USD)") -> pd.DataFrame:
@@ -51,7 +51,7 @@ class DataTransformation:
         self.processed_df = df # Store processed data
         
         # Save to artifacts
-        os.makedirs(self.config.processed_data_dir, exist_ok=True)
-        save_path = Path(self.config.processed_data_dir) / "processed_df.csv"
+        os.makedirs(self.config.root_dir, exist_ok=True)
+        save_path = Path(self.config.root_dir) / "processed_df.csv"
         df.to_csv(save_path, index=False)
         logger.info(f"Processed data stored at: {save_path}")

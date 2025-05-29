@@ -27,5 +27,14 @@ class DataProcessingConfig:
 @dataclass(frozen=True)
 class DataTransformationConfig:
     root_dir: Path
-    data_path: Path
-    processed_data_dir: Path
+    selected_data_file: Path
+    processed_data_file: Path
+    
+@dataclass(frozen=True)
+class DataSplittingConfig:
+    root_dir: Path
+    processed_data_file: Path
+    train_set_path: Path
+    test_set_path: Path
+    test_size: float
+    random_state: int
