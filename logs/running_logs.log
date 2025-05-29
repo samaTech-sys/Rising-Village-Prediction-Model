@@ -982,3 +982,114 @@ x=========x]
 [2025-05-29 12:07:58,762: INFO: main: >>>>> Data Splitting Stage completed >>>>>
 
 x=========x]
+[2025-05-29 16:56:52,277: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-05-29 16:56:52,293: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-29 16:56:52,318: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-29 16:56:52,359: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-29 16:56:52,364: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-29 16:56:52,364: INFO: common: Created directory at: artifacts]
+[2025-05-29 16:56:52,364: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-05-29 16:56:58,234: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with the following info: n\Connection: close
+Content-Length: 956420
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "b563e1853abc5bbe97acae5f0c2a2a20e9f5cc3a9aec3235ec24faa144b15667"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C7A4:6002:F1ADB:29E604:68383D76
+Accept-Ranges: bytes
+Date: Thu, 29 May 2025 10:56:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-cpt13825-CPT
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1748516215.926312,VS0,VE366
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f6e57d57ffd15a33d5d4735b15685a479a964f11
+Expires: Thu, 29 May 2025 11:01:55 GMT
+Source-Age: 0
+
+]
+[2025-05-29 16:56:58,415: INFO: main: >>>>> Data Ingestion Stage completed >>>>>
+
+x=========x]
+[2025-05-29 16:56:58,431: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-05-29 16:56:58,521: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-29 16:56:58,584: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-29 16:56:58,595: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-29 16:56:58,609: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-29 16:56:58,613: INFO: common: Created directory at: artifacts]
+[2025-05-29 16:56:58,619: INFO: common: Created directory at: artifacts/data_validation]
+[2025-05-29 16:57:09,988: INFO: main: >>>>> Data Validation Stage completed >>>>>
+
+x=========x]
+[2025-05-29 16:57:09,988: INFO: main: >>>>>> stage Data Processing Stage started <<<<<<]
+[2025-05-29 16:57:10,024: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-29 16:57:10,049: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-29 16:57:10,052: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-29 16:57:10,078: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-29 16:57:10,091: INFO: common: Created directory at: artifacts]
+[2025-05-29 16:57:10,091: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-29 16:57:12,340: INFO: data_processing: Saved 5 features to artifacts\data_processing\selected_features.csv]
+[2025-05-29 16:57:12,340: INFO: data_processing: Target column: {'HH Income + Production/Day (USD)': 'float64'}]
+[2025-05-29 16:57:12,434: INFO: data_processing: Validation passed]
+[2025-05-29 16:57:12,436: INFO: main: >>>>> Data Processing Stage completed >>>>>
+
+x=========x]
+[2025-05-29 16:57:12,437: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-05-29 16:57:12,439: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-29 16:57:12,462: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-29 16:57:12,472: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-29 16:57:12,487: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-29 16:57:12,489: INFO: common: Created directory at: artifacts]
+[2025-05-29 16:57:12,498: INFO: common: Created directory at: artifacts/data_transformation]
+[2025-05-29 16:57:12,536: INFO: data_transformation: Created binary classes (median threshold: 2.26)]
+[2025-05-29 16:57:12,554: INFO: data_transformation: Filled missing values in most_recommend_rtv_program with mode: 1.0]
+[2025-05-29 16:57:12,556: INFO: data_transformation: Filled missing values in least_recommend_rtv_program with mode: 99.0]
+[2025-05-29 16:57:12,572: INFO: data_transformation: Filled missing values in most_recommend_rtv_program_reason with mode: It has greatly influenced  our community in improving agricultural skills and other methods of farming,  I highly recommend it to move to other area]
+[2025-05-29 16:57:12,589: INFO: data_transformation: Filled missing values in least_recommend_rtv_program_reason with mode: All interventions have worked for the people credit goes go the implementation team for the god work done in communities]
+[2025-05-29 16:57:12,629: INFO: data_transformation: Processed data stored at: artifacts\data_transformation\processed_df.csv]
+[2025-05-29 16:57:12,634: INFO: main: >>>>> Data Transformation Stage completed >>>>>
+
+x=========x]
+[2025-05-29 16:57:12,637: INFO: main: >>>>>> stage Data Processing Stage started <<<<<<]
+[2025-05-29 16:57:12,655: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-29 16:57:12,689: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-29 16:57:12,689: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-29 16:57:12,705: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-29 16:57:12,705: INFO: common: Created directory at: artifacts]
+[2025-05-29 16:57:12,705: INFO: common: Created directory at: artifacts/data_processing]
+[2025-05-29 16:57:14,730: INFO: data_processing: Saved 5 features to artifacts\data_processing\selected_features.csv]
+[2025-05-29 16:57:14,730: INFO: data_processing: Target column: {'HH Income + Production/Day (USD)': 'float64'}]
+[2025-05-29 16:57:14,756: INFO: data_processing: Validation passed]
+[2025-05-29 16:57:14,756: INFO: main: >>>>> Data Processing Stage completed >>>>>
+
+x=========x]
+[2025-05-29 16:57:14,769: INFO: main: >>>>>> stage Data Splitting Stage started <<<<<<]
+[2025-05-29 16:57:14,778: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-29 16:57:14,793: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-29 16:57:14,799: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-29 16:57:14,807: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-29 16:57:14,809: INFO: common: Created directory at: artifacts]
+[2025-05-29 16:57:14,812: INFO: common: Created directory at: artifacts/data_splitting]
+[2025-05-29 16:57:14,870: INFO: data_splitting: Splitted data into train and test sets]
+[2025-05-29 16:57:14,871: INFO: data_splitting: Train set saved to artifacts/data_splitting/train_set.csv]
+[2025-05-29 16:57:14,872: INFO: data_splitting: Test set saved to artifacts/data_splitting/train_set.csv]
+[2025-05-29 16:57:14,872: INFO: main: >>>>> Data Splitting Stage completed >>>>>
+
+x=========x]
+[2025-05-29 16:57:14,873: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2025-05-29 16:57:14,885: INFO: common: yaml_file: config\config.yaml loaded successfully]
+[2025-05-29 16:57:14,892: INFO: common: yaml_file: params.yaml loaded successfully]
+[2025-05-29 16:57:14,897: INFO: common: yaml_file: schema.yaml loaded successfully]
+[2025-05-29 16:57:14,901: INFO: common: yaml_file: selected_schema.yaml loaded successfully]
+[2025-05-29 16:57:14,904: INFO: common: Created directory at: artifacts]
+[2025-05-29 16:57:14,905: INFO: common: Created directory at: artifacts/model_training]
+[2025-05-29 16:57:15,931: INFO: main: >>>>> Model Training Stage completed >>>>>
+
+x=========x]

@@ -30,3 +30,8 @@ data_splitting:
   root_dir: artifacts/data_splitting
   train_set_path: artifacts/data_splitting/train_set.csv
   test_set_path: artifacts/data_splitting/train_set.csv
+
+#Data Transformation repositories
+model_training: 
+  root_dir: artifacts/model_training
+  model_name: model.joblib

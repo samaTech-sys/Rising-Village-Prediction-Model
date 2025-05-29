@@ -6,7 +6,8 @@ from raisingVillage.entity.entity_config import (
     DataValidationConfig, 
     DataProcessingConfig,
     DataTransformationConfig, 
-    DataSplittingConfig
+    DataSplittingConfig, 
+    ModelTrainingConfig
 )
 
 #Updating the configuration file 
@@ -103,3 +104,23 @@ class ConfigurationManager:
             random_state=int(params.random_state)    
         )
         return data_splitting_config
+    
+    def get_model_training_config(self) -> ModelTrainingConfig:
+        config = self.config.model_training
+        data_splitting_config = self.config.data_splitting
+        tfidf_params = self.params.model_training.TfidfVectorizer
+        gb_params = self.params.model_training.GradientBoostingClassifier
+        schema = self.selected_schema.TARGET
+        
+        create_directories([config.root_dir])
+        
+        model_training_config = ModelTrainingConfig(
+            root_dir=config.root_dir,
+            train_set_path = data_splitting_config.train_set_path,
+            test_set_path = data_splitting_config.test_set_path,
+            tfidf_params=tfidf_params,
+            gb_params=gb_params,
+            target_column=self.selected_schema.TARGET,
+            model_name=config.model_name, 
+        )
+        return model_training_config

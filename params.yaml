@@ -1,3 +1,19 @@
 data_splitting:
   test_size: 0.2
   random_state: 42
+
+model_training: 
+  TfidfVectorizer:
+    max_features: 100           # Keep top 100 terms by frequency
+    stop_words: 'english'       # Remove common words (e.g., "the", "and")
+    ngram_range: (1, 2)        # Include 1-word and 2-word phrases
+    min_df: 2                         # Ignore terms appearing in <2 documents
+    max_df: 0.95                  # Ignore terms in >95% of documents
+
+  GradientBoostingClassifier: 
+    n_estimators: 100           # Number of trees (start with 50-200)
+    learning_rate: 0.1           # Shrinkage factor (lower = more robust)
+    max_depth: 3                  # Limit tree depth (3-5 for mixed data)
+    min_samples_split: 10     # Minimum samples to split a node
+    subsample: 0.8                # Fraction of samples per tree (prevents overfitting)
+    random_state: 42            # Reproducibility
