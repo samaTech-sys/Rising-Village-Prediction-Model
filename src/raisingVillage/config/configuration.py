@@ -4,7 +4,8 @@ from raisingVillage.utils.common import read_yaml, create_directories
 from raisingVillage.entity.entity_config import (
     DataIngestionConfig, 
     DataValidationConfig, 
-    DataProcessingConfig
+    DataProcessingConfig,
+    DataTransformationConfig
 )
 
 #Updating the configuration file 
@@ -71,3 +72,15 @@ class ConfigurationManager:
             target_column=target_column  
         )
         return data_processing_config
+    
+    def get_data_transformation_config(self) -> DataTransformationConfig:
+        config = self.config.data_transformation 
+        
+        create_directories([config.root_dir])
+        
+        data_transformation_config = DataTransformationConfig(
+            root_dir=config.root_dir,
+            data_path=config.data_path, 
+            processed_data_dir=config.processed_data_dir
+        )
+        return data_transformation_config

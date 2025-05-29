@@ -32,3 +32,33 @@
 [2025-05-29 05:54:44,033: INFO: category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.]
 [2025-05-29 05:54:44,518: INFO: category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.]
 [2025-05-29 05:54:44,536: INFO: category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.]
+[2025-05-29 05:58:56,639: INFO: category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.]
+[2025-05-29 05:58:56,674: INFO: category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.]
+[2025-05-29 05:59:04,617: INFO: category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.]
+[2025-05-29 05:59:04,640: INFO: category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.]
+[2025-05-29 05:59:14,740: INFO: style1_handle_missing_values: Executing Missing Value handling strategy!]
+[2025-05-29 05:59:14,743: INFO: style1_handle_missing_values: 
+Filling missing values using method=mode]
+[2025-05-29 05:59:14,748: WARNING: style1_handle_missing_values: Column 'most_recommended_rtv_program' not found in dataframe]
+[2025-05-29 05:59:14,750: WARNING: style1_handle_missing_values: Column 'least_recommended_rtv_program' not found in dataframe]
+[2025-05-29 05:59:14,753: INFO: style1_handle_missing_values: Missing Values Filled!]
+[2025-05-29 06:08:26,257: INFO: style1_handle_missing_values: Executing Missing Value handling strategy!]
+[2025-05-29 06:08:26,262: INFO: style1_handle_missing_values: 
+Filling missing values using method=mode]
+[2025-05-29 06:08:26,273: INFO: style1_handle_missing_values: Missing Values Filled!]
+[2025-05-29 06:15:57,380: INFO: style1_handle_missing_values: Executing Missing Value handling strategy!]
+[2025-05-29 06:15:57,389: INFO: style1_handle_missing_values: 
+Filling missing values using method=mode]
+[2025-05-29 06:15:57,399: INFO: style1_handle_missing_values: Missing Values Filled!]
+[2025-05-29 06:18:21,338: INFO: style1_handle_missing_values: Executing Missing Value handling strategy!]
+[2025-05-29 06:18:21,342: INFO: style1_handle_missing_values: 
+Filling missing values using method=mode]
+[2025-05-29 06:18:21,352: INFO: style1_handle_missing_values: Missing Values Filled!]
+[2025-05-29 06:18:59,597: INFO: style1_handle_missing_values: Executing Missing Value handling strategy!]
+[2025-05-29 06:18:59,599: INFO: style1_handle_missing_values: 
+Filling missing values using method=mode]
+[2025-05-29 06:18:59,602: INFO: style1_handle_missing_values: Missing Values Filled!]
+[2025-05-29 06:22:14,749: INFO: style1_handle_missing_values: Executing Missing Value handling strategy!]
+[2025-05-29 06:22:14,749: INFO: style1_handle_missing_values: 
+Filling missing values using method=mode]
+[2025-05-29 06:22:14,773: INFO: style1_handle_missing_values: Missing Values Filled!]

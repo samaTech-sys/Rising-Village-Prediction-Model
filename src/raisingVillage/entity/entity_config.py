@@ -23,3 +23,9 @@ class DataProcessingConfig:
     validation_report: str
     all_schema: dict
     target_column: str
+    
+@dataclass(frozen=True)
+class DataTransformationConfig:
+    root_dir: Path
+    data_path: Path
+    processed_data_dir: Path

@@ -2,6 +2,7 @@ from raisingVillage import logger
 from raisingVillage.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from raisingVillage.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from raisingVillage.pipeline.stage_03_data_processing import DataProcessingTrainingPipeline
+from raisingVillage.pipeline.stage_04_data_transformation import DataTransformationTrainingPipeline
 
 STAGE_NAME = "Data Ingestion Stage"
 try:
@@ -31,4 +32,14 @@ try:
 except Exception as e:
     logger.exception(e)
 
+STAGE_NAME = "Data Transformation Stage"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = DataTransformationTrainingPipeline()
+    obj.main()
+    logger.info(f">>>>> {STAGE_NAME} completed >>>>>\n\nx=========x")
+except Exception as e:
+    logger.exception(e)
+
     
+
