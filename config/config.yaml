@@ -29,9 +29,15 @@ data_transformation:
 data_splitting: 
   root_dir: artifacts/data_splitting
   train_set_path: artifacts/data_splitting/train_set.csv
-  test_set_path: artifacts/data_splitting/train_set.csv
+  test_set_path: artifacts/data_splitting/test_set.csv
 
 #Data Transformation repositories
 model_training: 
   root_dir: artifacts/model_training
+  model_path: artifacts/model_training/model.joblib
   model_name: model.joblib
+
+#Data Evaluation repositories
+model_evaluation: 
+  root_dir: artifacts/model_evaluation
+  metric_file_name: artifacts/model_evaluation/metrics.json

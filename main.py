@@ -5,6 +5,7 @@ from raisingVillage.pipeline.stage_03_data_processing import DataProcessingTrain
 from raisingVillage.pipeline.stage_04_data_transformation import DataTransformationTrainingPipeline
 from raisingVillage.pipeline.stage_05_data_splitting import DataSplittingTrainingPipeline
 from raisingVillage.pipeline.stage_06_model_training import ModelTrainingTrainingPipeline
+from raisingVillage.pipeline.stage_07_model_evaluation import ModelEvaluationTrainingPipeline
 
 STAGE_NAME = "Data Ingestion Stage"
 try:
@@ -66,6 +67,16 @@ STAGE_NAME = "Model Training Stage"
 try:
     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
     obj = ModelTrainingTrainingPipeline()
+    obj.main()
+    logger.info(f">>>>> {STAGE_NAME} completed >>>>>\n\nx=========x")
+except Exception as e:
+    logger.exception(e)
+
+
+STAGE_NAME = "Model Evalaution Stage"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = ModelEvaluationTrainingPipeline()
     obj.main()
     logger.info(f">>>>> {STAGE_NAME} completed >>>>>\n\nx=========x")
 except Exception as e:

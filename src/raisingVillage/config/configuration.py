@@ -7,7 +7,8 @@ from raisingVillage.entity.entity_config import (
     DataProcessingConfig,
     DataTransformationConfig, 
     DataSplittingConfig, 
-    ModelTrainingConfig
+    ModelTrainingConfig, 
+    ModelEvaluationConfig
 )
 
 #Updating the configuration file 
@@ -124,3 +125,27 @@ class ConfigurationManager:
             model_name=config.model_name, 
         )
         return model_training_config
+    
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation  # Should probably use model_evaluation section
+        data_splitting_config = self.config.data_splitting
+        model_training_config = self.config.model_training
+        
+        # Combine all parameters into one dictionary
+        all_params = {
+            "tfidf_params": self.params.model_training.TfidfVectorizer,
+            "gb_params": self.params.model_training.GradientBoostingClassifier
+        }
+        
+        create_directories([config.root_dir])
+        
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir=Path(config.root_dir),
+            test_data_path=Path(data_splitting_config.test_set_path),
+            model_path=Path(model_training_config.model_path),
+            all_params=all_params,
+            metric_file_name=Path(config.metric_file_name),
+            target_column=self.selected_schema.TARGET,
+            mlflow_uri="https://dagshub.com/samaTech-sys/Rising-Village-Prediction-Model.mlflow"
+        )
+        return model_evaluation_config
